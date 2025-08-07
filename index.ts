@@ -1,15 +1,6 @@
 import express from "express";
 import "dotenv/config";
 
-// const clientId = "kdmerck0rwu4qa66hhvv1akbiyt7mxwd";
-// const clientSecret = "UgzqLlr3eln2DcEnJkcGFP3Sz2rKQa2z";
-// const redirectUri = "http://localhost:3000/callback";
-//
-// const port = 3000;
-// const version = "23.0.0";
-// const locale = "en-US"; //"ja-JP";
-// const folderId = "0";
-
 interface TokenInfo {
   access_token: string;
   refresh_token: string;
