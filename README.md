@@ -16,10 +16,12 @@
 - このコードをローカルPCにgit clone する
 - `env.sample` をコピーし、`.env` ファイルを作成する(先頭にドットが付く)
 - ファイルを開き、CLIENT_IDとCLIENT_SECRETを、作成したアプリ設定のものにかえる
+  
 
 
 ## コマンド
 
+- `npm install` : 依存パッケージをインストール（初回実行）
 - `npm run dev` : typescriptコードのままプログラムを実行する
 - `npm run build`: typescriptコードをコンパイルして、jsファイルを作成する
 - `npm run start`: node.jsで、`npm run build`で作成したjsファイルを実行する
