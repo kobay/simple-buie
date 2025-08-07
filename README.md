@@ -22,7 +22,7 @@
 
 - `npm run dev` : typescriptコードのままプログラムを実行する
 - `npm run build`: typescriptコードをコンパイルして、jsファイルを作成する
-- `npm run start`: node.jsで、`npm build`で作成したjsファイルを実行する
+- `npm run start`: node.jsで、`npm run build`で作成したjsファイルを実行する
 
 
 
